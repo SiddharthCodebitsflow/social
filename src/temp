@@ -1,0 +1,14 @@
+
+    // const onChange = (e) => {
+    // console.log(e.target.name)
+    // const { name, value } = e.target;
+    // setregister_field(prev => prev.map(el => {
+    //     if (el.name === name) {
+    //         el.value = value
+    //     }
+    //     return el;
+    // }))
+
+    // const formData = new FormData(e.target);
+    // setregister_field(formData);
+    // }

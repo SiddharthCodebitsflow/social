@@ -1,0 +1,66 @@
+.body-form {
+    background: linear-gradient(173deg, rgb(245, 235, 235), skyblue);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-form {
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.body-card {
+    padding: 10px;
+}
+
+.header-card {
+    background-color: rgb(181, 228, 247);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.alert-success {
+ width: 40%;
+ position: absolute;
+ left: 50%;
+ top: 10px;
+ transform: translate(-50%,10px);
+ z-index: 1;
+background-color: #bfd7e1;
+padding: 20px;
+border-radius: 10px;
+}
+.btn-close{
+    background-color: red;
+    border: skyblue;
+    color: white;
+    font-size: 15px;
+    float: right;
+    font-weight: bold;
+
+}
+
+.register-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:608px) {
+    .card-form {
+        width: 90%;
+    }
+    .alert-success {
+        width: 90%;
+       }
+}

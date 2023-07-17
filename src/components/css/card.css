@@ -1,0 +1,27 @@
+.post-card-item {
+    border: 1px solid black;
+    border-radius: 10px;
+    /* color: linear-gradient(173deg, rgb(245, 235, 235), skyblue);
+    box-shadow: 37 18px 32px 0 rgba(0, 0, 0, 0.2), 74 100px 91px 0 rgba(0, 0, 0, 0.19); */
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    height: 100%;
+}
+.post-card{
+    background-color: rgb(211, 207, 207);
+    border-radius:9px 9px 0px 0px;
+    padding: 5px;
+}
+.post-card-footer{
+    background-color: rgb(211, 207, 207);
+    border-radius:0px 0px 9px 9px;
+    padding: 5px;
+}
+.post-image{
+    height: 70%;
+    width: 100%;
+    flex: 1;
+}

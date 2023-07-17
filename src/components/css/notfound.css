@@ -1,0 +1,46 @@
+.not-found {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(173deg, rgb(245, 235, 235), skyblue);
+}
+.card-404 {
+    border: 1px solid white;
+    border-radius: 20px;
+    color: linear-gradient(173deg, rgb(245, 235, 235), skyblue);
+    box-shadow:37 18px 32px 0 rgba(0, 0, 0, 0.2), 74 100px 91px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    width:60%;
+    margin: auto;
+    height: 70vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-text {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page-404 {
+    font-size: 7rem;
+    background: linear-gradient( 173deg, rgb(245, 235, 235), skyblue);
+    background-clip: text;
+    color: transparent;
+}
+@media screen and (max-width:798px){
+    .card-404{
+        width: 90%;
+    }
+    .page-404{
+        font-size: 4rem;
+    }
+}
+
